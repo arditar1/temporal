@@ -2,6 +2,10 @@ pip install streamlit # Install streamlit first
 import streamlit as st # Then import it
 import pandas as pd
 import matplotlib.pyplot as plt
+import streamlit as st
+
+# Your Streamlit app code here
+st.title("Hello, Streamlit!")
 
 st.set_page_config(page_title="Bike Sharing Analysis", layout="centered")
 
